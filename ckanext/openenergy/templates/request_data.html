@@ -1,0 +1,17 @@
+{% extends "page.html" %}
+
+{% block subtitle %}{{ _('Request Data') }}{% endblock %}
+
+{% block breadcrumb_content %}
+  <li class="active">{% link_for _('Request Data'), controller='ckanext.openenergy.plugin:ExtraPagesController', action='request_data' %}</li>
+{% endblock %}
+
+{% block primary %}
+  <article class="module">
+    <div class="module-content">
+      
+    </div>
+  </article>
+{% endblock %}
+
+{% block secondary %}{% endblock %}
