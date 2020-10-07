@@ -1,13 +1,5 @@
-[![Downloads]][1]
-
-[![Latest Version]][2]
-
-[![Development Status]][2]
-
-[![License]][2]
-
-
 # ckanext-openenergy
+[![Downloads]][1] [![Latest Version]][2] [![Development Status]][2] [![License]][2]
 
 ## Requirements
 
