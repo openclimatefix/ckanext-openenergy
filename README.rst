@@ -1,10 +1,3 @@
-.. You should enable this project on travis-ci.org and coveralls.io to make
-   these badges work. The necessary Travis and Coverage config files have been
-   generated for you.
-
-.. image:: https://coveralls.io/repos/openclimatefix/ckanext-openenergy/badge.svg
-  :target: https://coveralls.io/r/openclimatefix/ckanext-openenergy
-
 .. image:: https://pypip.in/download/ckanext-openenergy/badge.svg
     :target: https://pypi.python.org/pypi//ckanext-openenergy/
     :alt: Downloads
