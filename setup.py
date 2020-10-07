@@ -16,7 +16,7 @@ setup(
     # Versions should comply with PEP440.  For a discussion on single-sourcing
     # the version across setup.py and the project code, see
     # http://packaging.python.org/en/latest/tutorial.html#version
-    version='0.0.3',
+    version='0.0.4',
 
     description='''CKAN Customisations for the Open Energy project.''',
     long_description=long_description,
@@ -26,8 +26,8 @@ setup(
     url='https://github.com/openclimatefix/ckanext-openenergy',
 
     # Author details
-    author='''Flo Wirtz''',
-    author_email='''flo@openclimatefix.org''',
+    author='''Open Climate Fix''',
+    author_email='''info@openclimatefix.org''',
 
     # Choose your license
     license='MIT',
