@@ -1,4 +1,4 @@
 include README.rst
 include LICENSE
 include requirements.txt
-recursive-include ckanext/openenergy *.html *.json *.js *.less *.css *.mo *.md
+recursive-include ckanext/openenergy *.html *.json *.js *.less *.css *.mo *.md *.ico
