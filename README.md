@@ -1,10 +1,6 @@
 # ckanext-openenergy
 [![Downloads]][1] [![Latest Version]][2] [![Development Status]][2] [![License]][2]
 
-## Requirements
-
-For example, you might want to mention here which versions of CKAN this
-extension works with.
 
 ## Installation
 
@@ -44,7 +40,6 @@ virtualenv and do:
     git clone https://github.com/openclimatefix/ckanext-openenergy.git
     cd ckanext-openenergy
     python setup.py develop
-    pip install -r dev-requirements.txt
 
 ## Deploying a new version to PyPi
 ```bash
