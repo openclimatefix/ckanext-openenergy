@@ -46,6 +46,15 @@ virtualenv and do:
     python setup.py develop
     pip install -r dev-requirements.txt
 
+## Deploying a new version to PyPi
+```bash
+git tag 0.0.5
+git push --tags
+
+python setup.py sdist
+python3 -m twine upload dist/*
+```
+
 
 
 
