@@ -2,17 +2,12 @@
 
 <div class="module-content box oe-fix-margin-b" style="padding-bottom: 30px;">
   <header>
-    {% if intro %}
-      {{ h.render_markdown(intro) }}
-    {% else %}
-      <h1 class="page-heading">{{ _("Welcome to CKAN") }}</h1>
-      <p>
-        {% trans %}This is a nice introductory paragraph about CKAN or the site
-        in general. We don't have any copy to go here yet but soon we will
-        {% endtrans %}
-      </p>
-    {% endif %}
+    <p>
+      The Open Energy Data Portal provides an entry point to the world of energy data. It allows you to search for energy data providers and datasets and includes where available the metadata to describe the structure of the datasets. It fully supports the <a href="https://www.w3.org/TR/vocab-dcat-2/">Data Catalog Vocabulary</a> and also ensures all datasets can be found by e.g. the <a href="https://datasetsearch.research.google.com/">Google Dataset Search</a>.
+    </p>
+    <p>
+      It forms part of the technical work of the consortium of <a href="https://icebreakerone.org/energy/">Icebreaker One</a>, <a href="https://www.passivsystems.com/">Passiv Systems</a> and <a href="https://openclimatefix.org/projects/open-energy-data">Open Climate Fix</a> for the <a href="https://innovateuk.blog.gov.uk/2020/05/29/modernising-energy-data-access-and-the-winners-are/">Modernising Energy Data Access competition</a>. All code is open-source and can be found on <a href="https://github.com/openclimatefix/ckanext-openenergy">GitHub</a>.
+    </p>
+    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vStzGuXnsJRT7ALg2nYQ8fIi-r4wC1kvtr39N_iwRbmB4knjIDxfhDFHtmMNmsHmAPaLSLOfJwZnKM9/embed?start=true&amp;loop=true&amp;delayms=5000" frameborder="0" height="300" style="width: 100%; margin-top: 20px;" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
   </header>
-
-  
 </div>

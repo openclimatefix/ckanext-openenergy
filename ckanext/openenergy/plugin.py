@@ -64,14 +64,6 @@ class OpenenergyPlugin(SingletonPlugin):
 
         # set the title
         config['ckan.site_title'] = "Open Energy Data Portal"
-        config['ckan.site_intro_text'] = """
-Hello and welcome to the Open Energy Data Portal!
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-Replace this text with something useful later.
-Can't think of anything right now.
-"""
         config['ckan.site_about'] = """
 The energy ecosystem must implement an architecture which can scale in data-type, volume and connectivity, across use-cases, organisational and logistical boundaries, sectors and jurisdictions. It must deliver this in a secure, safe, robust and adaptable environment which addresses governance.
 
