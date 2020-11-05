@@ -42,3 +42,6 @@ coverage.xml
 docs/_build/
 
 .DS_Store
+
+# Remove after MEDA deadline
+data-sources/
