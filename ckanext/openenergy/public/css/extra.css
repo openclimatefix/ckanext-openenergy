@@ -7,12 +7,12 @@ body {
    ===================================================== */
 
 .account-masthead {
-  background-color: #333;
+  background-color: #0D1C22;
 }
 
 /* The "bubble" containing the number of new notifications. */
 .account-masthead .account .notifications a span {
-  background-color: #333;
+  background-color: #0D1C22;
 }
 
 /* The text and icons in the user account info. */
@@ -33,20 +33,20 @@ body {
    ======================================================================== */
 
 .masthead {
-  background-color: #4f4f4f;
+  background-color: #1A3844;
 }
 
 /* The "navigation pills" in the masthead (the links to Datasets,
    Organizations, etc) when the user's pointer hovers over them. */
 .masthead .navigation .nav-pills li a:hover {
-  background-color: rgb(48, 48, 48);
+  background-color: #0D1C22;
   color: white;
 }
 
 /* The "active" navigation pill (for example, when you're on the /dataset page
    the "Datasets" link is active). */
 .masthead .navigation .nav-pills li.active a {
-  background-color: rgb(74, 74, 74);
+  background-color: #0D1C22;
 }
 
 /* The "box shadow" effect that appears around the search box when it
@@ -74,17 +74,17 @@ body {
 
 /* Change the colors of the "Search Your Data" box. */
 .homepage .module-search .module-content {
-  color: #333;
+  color: #0D1C22;
   background-color: white;
 }
 
 /* Change the background color of the "Popular Tags" box. */
 .homepage .module-search .tags {
-  background-color: #4f4f4f;
+  background-color: #1A3844;
 }
 
 .homepage .module-search .tags .tag:hover {
-  background-color: #333;
+  background-color: #0D1C22;
 }
 
 /* Remove some padding. This makes the bottom edges of the "Welcome to CKAN"
@@ -109,7 +109,7 @@ body {
 
 .site-footer,
 body {
-  background-color: #333;
+  background-color: #0D1C22;
 }
 
 /* The text in the footer. */
