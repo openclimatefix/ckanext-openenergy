@@ -84,6 +84,8 @@ class OpenenergyPlugin(SingletonPlugin):
                 controller='ckanext.openenergy.plugin:ExtraPagesController') as m:
             m.connect('changelog', '/changelog', action='changelog')
             m.connect('request_data', '/request-data', action='request_data')
+
+        route_map.redirect('/', '/dataset')
         
         return route_map
 
