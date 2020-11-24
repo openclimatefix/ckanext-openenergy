@@ -35,7 +35,7 @@ class CKANQueryHarvester(CKANHarvester):
         # FILTER BY SEARCH TERM
         search_query_string = self.config.get('search_query', None)
         if search_query_string:
-            fq_terms.append(f'q={search_query_string}')
+            fq_terms.append('q=%s' % search_query_string)
         
         # Filter in/out datasets from particular organizations
         org_filter_include = self.config.get('organizations_filter_include', [])
