@@ -1,0 +1,10 @@
+{
+    "name": "catalogue-national-grid-eso",
+    "title": "National Grid ESO",
+    "url": "https://data.nationalgrideso.com/",
+    "type": "harvest",
+    "source_type": "ckan",
+    "config": "{}",
+    "owner_org": "national-grid-eso",
+    "frequency": "MANUAL"
+}

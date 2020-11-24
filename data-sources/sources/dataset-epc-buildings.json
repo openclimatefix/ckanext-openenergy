@@ -1,0 +1,10 @@
+{
+    "name": "dataset-epc-buildings",
+    "title": "Energy Performance of Buildings Certificates",
+    "url": "https://data.gov.uk/dataset/ee8c0b06-60c6-4753-8152-e2170ac184bd/energy-performance-of-buildings-certificates",
+    "type": "harvest",
+    "source_type": "ckan",
+    "config": "{}",
+    "owner_org": "mhclg",
+    "frequency": "MANUAL"
+}
