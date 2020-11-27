@@ -82,6 +82,7 @@ setup(
     entry_points='''
         [ckan.plugins]
         openenergy=ckanext.openenergy.plugin:OpenenergyPlugin
+        openenergy_ckan_query_harvester=ckanext.openenergy.harvesters.ckanquery:CKANQueryHarvester
 
         [babel.extractors]
         ckan = ckan.lib.extract:extract_ckan
