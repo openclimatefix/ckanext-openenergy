@@ -54,6 +54,16 @@ class CKANQueryHarvester(CKANHarvester):
         elif groups_filter_exclude:
             fq_terms.extend(
                 '-groups:%s' % group_name for group_name in groups_filter_exclude)
+        
+        # FILTER BY TITLE
+        title_filter_string = self.config.get('search_query_title', None)
+        if title_filter_string:
+            fq_terms.append('title:%s' % title_filter_string)
+
+        # FILTER BY NOTES
+        notes_filter_string = self.config.get('search_query_notes', None)
+        if notes_filter_string:
+            fq_terms.append('notes:%s' % notes_filter_string)
 
         # Ideally we can request from the remote CKAN only those datasets
         # modified since the last completely successful harvest.
