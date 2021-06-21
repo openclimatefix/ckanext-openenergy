@@ -1,0 +1,10 @@
+{
+    "name": "data-gov-uk",
+    "title": "data.gov.uk Energy",
+    "url": "https://data.gov.uk/",
+    "type": "harvest",
+    "source_type": "ckan",
+    "config": "{\"default_tags\": [{ \"name\": \"harvested\" }],  \"default_extras\": {    \"harvest_url\": \"{harvest_source_url}\/dataset\/{dataset_id}\"  },  \"remote_orgs\": \"create\",  \"search_query\": \"energy\",  \"search_query_title\": \"energy\",  \"search_query_notes\": \"energy\"}",
+    "owner_org": "data-gov-uk",
+    "frequency": "MANUAL"
+}
